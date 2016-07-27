@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Philip Vo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="demo.css" rel="stylesheet" media="all">
+
+	<script src="https://use.fontawesome.com/8282860fcc.js"></script>	
+
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+
+	<script type="text/javascript" src="instafeed.min.js"></script>
+
+	<script src="jquery.nav.js"></script>
+
+	<script type="text/javascript">
+		var feed = new Instafeed({
+			get: 'user',
+			userId: '2283885777',
+			clientId: 'f18933c6048f4a8a8ed7ed03eca0a633',
+			accessToken: '2283885777.1677ed0.d2c120b7548e4b12930c39cd511e2b21',
+			limit: 10
+		});
+		feed.run();
+		// function F(n) {
+		// 	var possibilities = 0;
+		// 	var E = 0;
+
+		// 	for (var i = 2; i <= n; i++) {
+		// 		possibilities += math.permutations(n, i);
+		// 	}
+		// 	console.log("Poss before: " + possibilities);
+
+		// 	possibilities /= 2;
+		// 	console.log("Poss after: " + possibilities);
+
+		// 	var numerator = possibilities / 2;
+
+		// 	for (var X = 1; X <= n; X++) {			
+		// 		P = numerator/possibilities;
+		// 		E += X * P;
+		// 		console.log("X * P = " + X + " * " + numerator + " / " + possibilities + " = " + X * P);				
+		// 		numerator--;
+		// 	}			
+
+		// 	return E;
+		// }
+
+		$(document).ready(function() {
+
+			$('#nav').onePageNav();
+
+			// console.log("Expected value: " + F(4));
+
+			$.backstretch(["https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/13260964_543182522473274_1099683330_n.jpg?ig_cache_key=MTI1OTkyMjExODc4ODUyNDE3Nw%3D%3D.2", "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/13248978_802884729813530_216813246_n.jpg?ig_cache_key=MTI1OTgyOTYxODM3MTQ3MjEzMA%3D%3D.2","https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/13187959_1300242886653365_1631716255_n.jpg?ig_cache_key=MTI1OTkyMDcwNzc2NTkzODI5MQ%3D%3D.2", "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/13181529_1088085581262888_50880807_n.jpg?ig_cache_key=MTI1OTg0NjMyMDYwMTcwNDY1Ng%3D%3D.2"], {fade: 5000, duration:10000});
+
+		});
+
+	</script>	
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	
+
+</head>
+<body>
+	<ul id="nav">
+		<li><img class="img-circle" src="https://scontent-sjc2-1.cdninstagram.com/t51.2885-19/s150x150/13320141_694178607387306_203619190_a.jpg" alt=""></li>
+		<li><h2>Philip Vo</h2></li>
+		<li class="current"><a href="#about">About Me</a></li>
+		<li><a href="#resume">Resume</a></li>
+		<li><a href="#photos">Photos</a></li>
+		<!-- <li><a href="#examples">Examples</a></li> -->
+	</ul>
+
+	<ul class="fa-ul">
+		<li><a href="https://twitter.com/ptbvo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+		</a></li>
+		<li><a href="https://www.instagram.com/ptbv/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+		</a></li>
+	</a></li>
+	<li><a href="https://github.com/PhilipVo"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+	</a></li>		
+	<li><a href="https://www.linkedin.com/in/philipvo"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+	</a></li>
+</a></li>
+<li><a href="philiptranbavo@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+</a></li>							
+</ul>
+
+<div id="container">
+	<div class="section" id="about">
+		<h1>About me</h1>
+		<div class="about_text">
+		<strong>Profile</strong>
+			<p>
+					Philip Tran Ba Vo<br>
+					November 2<br>
+					Bataan, Philippines<br>
+			</p>
+		</div>		
+		<div class="about_text">
+			<strong>Education</strong>
+			<p>University of California, Davis (2009 - 2013)<br>
+				Bachelor of Science, Computer Engineering<br>
+			</p>
+		</div>
+		<div class="about_text">
+			<strong>Hobbies</strong>
+			<p>
+				Video/computer games<br>
+				<span class="indent">&#10004; <a href="http://na.op.gg/multi/query=reformedzyra%2Ckohyojoo">League of Legends</a></span><br>
+				<span class="indent">&#10004; Metal Gear series</span><br>
+				<span class="indent">&#10006; <b>NOT</b> playing Pokemon Go!</span><br>
+				Music<br>
+				<span class="indent">&sung; Guitar</span><br>
+				<span class="indent">&sung; Piano</span><br>
+				Learning languages<br>
+				<span class="indent">&#8363; Vietnamese</span><br>
+				<span class="indent">&euro; Spanish</span><br>
+				<span class="indent">&#8361; Korean</span><br>
+				Digital art<br>
+				Clothes &amp; fashion<br>
+				Computer science &amp; programming<br>
+				Physics &amp; space<br>
+			</p>
+		</div>							
+
+	</div>
+
+	<div class="section" id="resume">
+		<h1>Resume</h1>
+		<embed src="ResumeOnePage.pdf" width="100%" height="1050" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">		
+		</div>
+
+		<div class="section" id="photos">
+			<h2>Photos</h2>
+			<div id="instafeed"></div>
+
+		</div>
+
+<!-- 		<div class="section" id="examples">
+			<h2>Examples</h2>
+			<ul>
+				<li><a href="filter.html">Filter out links</a></li>
+				<li><a href="hash.html">Change hash</a></li>
+				<li><a href="top.html">Horizontal Nav</a></li>
+			</ul>
+		</div> -->
+	</div>
+</body>
+</html>
